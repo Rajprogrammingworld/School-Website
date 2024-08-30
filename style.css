@@ -21,6 +21,8 @@
     --facebook:#3b5998;
     --twitter:#55acee;
     --instagram:#e93b81;
+    --bg-dark-blue: #091020;
+    
 }
 
 /* html,body{
@@ -697,6 +699,21 @@ height: 100%;
         margin-top: 33px;
     text-align: justify;
     
+    }
+
+
+
+    /* -------scroll-bar----------------- */
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    ::-webkit-scrollbar-track{
+        background: var(--bg-dark-blue);
+    }
+    ::-webkit-scrollbar-thumb {
+        background: var(--primary-color);
     }
 
 
