@@ -31,6 +31,26 @@
     
 } */
 
+
+/* -------bootstrap navbar-design-------------- */
+
+#navbarNav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+#navbarNav ul li:hover::after{
+    width: 70%;
+    
+}
+
+/* ---------Close Here--------------------- */
+
 .container{
     
     
