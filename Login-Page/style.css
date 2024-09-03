@@ -2,8 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: monospace;
-    /* background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(9,9,121,1) 40%, rgba(0,212,255,1) 85%); */
 background-image: url("wepik-white-geometric-shapes-background-20240903103237ZrE6.jpeg");
 
     height: 100vh;
