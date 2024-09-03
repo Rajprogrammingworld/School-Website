@@ -2,7 +2,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: monospace;
-    background-image: linear-gradient(to right top, #160537, #77084d, #c73b3c, #e79000, #c7eb12);
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(9,9,121,1) 40%, rgba(0,212,255,1) 85%); */
+background-image: url("wepik-white-geometric-shapes-background-20240903103237ZrE6.jpeg");
+
     height: 100vh;
     overflow: hidden;
 }
@@ -15,6 +18,7 @@ body{
     background: white;
     width: 400px;
     border-radius: 10px;
+    border: 2px solid red;
 }
 
 .center h1{
@@ -100,7 +104,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
     border-color: #2691d9;
     transition: .5s;
-    background: violet;
+    background: #DC602E;
 
 }
 
